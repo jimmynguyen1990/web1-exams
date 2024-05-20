@@ -1,0 +1,55 @@
+:root {
+  --pink-colour: #e38773;
+  --black-colour: #252525;
+}
+
+header {
+  background: url(images/chan-bg.png) no-repeat;
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-primary {
+  background-color: var(--pink-colour) !important;
+  border-color: var(--pink-colour) !important;
+}
+
+.btn-secondary {
+  background-color: var(--black-colour) !important;
+  border-color: var(--black-colour) !important;
+}
+
+.btn-outline-primary {
+  color: var(--pink-colour) !important;
+  border-color: var(--pink-colour) !important;
+  font-weight: bold;
+}
+
+footer {
+  background: url(images/footer-bg.png) no-repeat;
+}
+
+#cau3 {
+  min-height: 600px;
+}
+
+#cau3 img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 680px;
+  height: 420px;
+}
+
+#cau3 form {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 50%;
+  border-color: var(--pink-colour) !important;
+}
+
+.form-control {
+  border-color: var(--pink-colour) !important;
+}
